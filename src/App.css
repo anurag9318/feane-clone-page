@@ -1,0 +1,146 @@
+ .mainbody {
+            background: url('https://themewagon.github.io/feane/images/hero-bg.jpg');
+            background-size: 100% 100%;
+        }
+
+        .nav-icon {
+            margin: 0 10px;
+
+        }
+
+        .order {
+            background-color: #ffbe33;
+        }
+
+        .order:hover {
+            background-color: #e0b033;
+        }
+
+        .nav-icon:hover {
+            color: #e0b033
+        }
+
+        .nav-link {
+            color: white;
+            margin: 0 10px;
+        }
+
+        .nav-link:hover, .hoverEffect:hover {
+            color: #e0b033;
+            cursor:pointer;
+        }
+        
+
+        .text-white {
+            color: white;
+        }
+
+        .bg-black {
+            background-color: #222831;
+        }
+
+        .fs-Dance {
+            font-family: "Dancing Script";
+        }
+
+        .sliderbox {
+            height: fit-content;
+            width: 550px;
+            color: white
+        }
+
+        .slidertext {
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: "Dancing Script";
+
+        }
+
+        .roundimgbox {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            border: 5px solid #ffbe33;
+            overflow: hidden;
+        }
+
+        .roundimg {
+            height: 100%;
+            width: 100%;
+        }
+
+        .roundimg:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        .menu-middle {
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        .menu-item:hover {
+            background: #000;
+            color: white;
+
+        }
+
+        .card {
+            border-radius: 20px;
+            border: none;
+        }
+
+        .cBody {
+            border-radius: 19px 19px 0px 50px;
+            background-color: whitesmoke;
+        }
+
+        @media (min-width: 768px) {
+            .pt-top-230 {
+                padding-top: 230px !important;
+            }
+        }
+
+        .footer-imagesbox {
+            margin-top: 44px;
+            height: 120px;
+            width: 120px;
+            border: 5px solid #ffbe33;
+            border-radius: 50%;
+            background: url('https://themewagon.github.io/feane/images/client1.jpg');
+            background-size: 100% 100%;
+            position: relative;
+
+        }
+
+        .footer-imagesbox::before {
+            content: "";
+            position: absolute;
+            top: -42px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-bottom: 20px solid #ffbe33;
+            border-top: 20px solid white;
+            border-left: 20px solid white;
+            border-right: 20px solid white;
+
+        }
+
+        .footer-images {
+            height: 100%;
+            width: 100%;
+        }
+        .icon-div{
+            height: 30px;
+            width: 30px;
+            padding: 3px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            background:white;
+            color: #222831;
+            margin: 3px;
+        }
